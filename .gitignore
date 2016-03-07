@@ -17,14 +17,21 @@
 [Rr]eleases/
 x64/
 x86/
+<<<<<<< HEAD
+=======
+build/
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
 bld/
 [Bb]in/
 [Oo]bj/
 
 # Visual Studio 2015 cache/options directory
 .vs/
+<<<<<<< HEAD
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
+=======
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -75,7 +82,10 @@ _Chutzpah*
 ipch/
 *.aps
 *.ncb
+<<<<<<< HEAD
 *.opendb
+=======
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
 *.opensdf
 *.sdf
 *.cachefile
@@ -84,7 +94,10 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+<<<<<<< HEAD
 *.sap
+=======
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
 
 # TFS 2012 Local Workspace
 $tf/
@@ -109,7 +122,10 @@ _TeamCity*
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
+<<<<<<< HEAD
 nCrunchTemp_*
+=======
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
 
 # MightyMoose
 *.mm.*
@@ -137,9 +153,17 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
+<<<<<<< HEAD
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
+=======
+## TODO: Comment the next line if you want to checkin your
+## web deploy settings but do note that will include unencrypted
+## passwords
+#*.pubxml
+
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
 *.publishproj
 
 # NuGet Packages
@@ -150,6 +174,7 @@ publish/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
+<<<<<<< HEAD
 # NuGet v3's project.json files produces more ignoreable files
 *.nuget.props
 *.nuget.targets
@@ -168,6 +193,15 @@ ApplicationInsights.config
 # Windows Store app package directory
 AppPackages/
 BundleArtifacts/
+=======
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -177,6 +211,10 @@ BundleArtifacts/
 
 # Others
 ClientBin/
+<<<<<<< HEAD
+=======
+[Ss]tyle[Cc]op.*
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
 ~$*
 *~
 *.dbmdl
@@ -209,9 +247,12 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+<<<<<<< HEAD
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
+=======
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 
@@ -221,6 +262,7 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 
+<<<<<<< HEAD
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts
@@ -234,3 +276,9 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+=======
+# LightSwitch generated files
+GeneratedArtifacts/
+_Pvt_Extensions/
+ModelManifest.xml
+>>>>>>> c79eceaa91bec4553384afa11ca7708ffc7206a6
